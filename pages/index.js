@@ -1,10 +1,11 @@
 import React from 'react'
-import BookList from './PracticeuseState'
+import Practice from '../src/Components/Practice'
+
 
  const index = () => {
   return (
     <div>
-       <BookList/>
+       <Practice/>
     </div>
   )
 }
