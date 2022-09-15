@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-const PracticeuseEffect = () => {
+const Practice = () => {
   const [name, setName] = useState("");
   const [mail, setMail] = useState("");
   const [people, setPeople] = useState([]);
@@ -67,7 +67,7 @@ const PracticeuseEffect = () => {
   );
 };
 
-export default PracticeuseEffect;
+export default Practice;
 
 const styles = {
   form: {
